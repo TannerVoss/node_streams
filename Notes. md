@@ -1,0 +1,9 @@
+1) create a server 
+    a. import - const { createServer } = require("http");
+    b. server object - let server = createServer();
+2) create listener for server
+    a. server.listener(port, () => console.log("Server running on port: " + port))
+3) creat "index" and "not found" html files.
+4) destructior url and method in server object
+    a. const { url,method } = req;
+5) if else statement

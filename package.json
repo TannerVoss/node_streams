@@ -1,0 +1,23 @@
+{
+  "name": "node_streams",
+  "version": "1.0.0",
+  "description": "- In VS Code, create and open a new folder named “node_streams”\r - Create a streams.js file\r - Import or require the fs module\r - Create a server\r - Write a conditional statement that checks the request url for a “GET” request on a “/”\r - If the method and url match the previous check (step c), use createReadStream to pipe the contents of an html file to the client\r - You can design the html file however you choose\r - If the method and url are not “/” and “GET”, use the same method to pipe the contents of a 404 not found html page\r - You should send the appropriate status code and headers\r - Now run node app and test in postman or the browser",
+  "main": "nodeFetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TannerVoss/node_streams.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TannerVoss/node_streams/issues"
+  },
+  "homepage": "https://github.com/TannerVoss/node_streams#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
